@@ -11,7 +11,7 @@ export default function Header() {
         <p className="text-left text-base sm:text-lg md:text-xl text-gray-200 mb-4 sm:mb-6">Discover the fascinating world of carnivorous plants – unique, vibrant, and surprisingly easy to care for.</p>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <button className="px-6 py-2 text-base sm:text-lg bg-primary text-white rounded hover:bg-secondary transition w-full sm:w-auto">Shop Now</button>
-          <button className="px-6 py-2 text-base sm:text-lg bg-white text-black rounded hover:bg-hover transition w-full sm:w-auto">Learn More</button>
+          <button className="px-6 py-2 text-base sm:text-lg bg-white text-black rounded hover:bg-secondary hover:text-white transition w-full sm:w-auto">Learn More</button>
         </div>
       </div>
     </header>

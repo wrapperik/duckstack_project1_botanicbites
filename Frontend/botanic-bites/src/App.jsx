@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from './components/navbar'
 import Header from './components/header'
 import Footer from './components/footer'
+import FeaturedProducts from "./components/featuredProducts";
 import './index.css';
 
 
@@ -15,7 +16,8 @@ function App() {
     <>
      <Navbar />
      <Header />
-     <Footer />
+     <FeaturedProducts />
+      <Footer />
     </>
   )
 }
